@@ -1,12 +1,39 @@
 # OpenFaaS Workshop
 
-## Important Links:
+## Prerequisite:
+1. [Github Account](https://www.github.com)
+2. [DockerHub Account](https://www.dockerhub.com)
+3. [Digital Ocean](https://www.digitalocean.com)
+(It is recommended to complete this workshop using Digital Ocean)
+> Note: If you already have a DigitalOcean account it's great. If you don't, you can create using [this](https://m.do.co/c/1edc3a68b25d) referral link which will give you $50 free credit. You may need to put your credit card details which you can remove later. 
+
+# Important Links:
 
 1. Workshop VSCode Tool (https://github.com/openfaas-incubator/workshop-vscode)
 2. Workshop lab resources (https://github.com/openfaas/workshop)
 3. OpenFaas Documentation (https://docs.openfaas.com/)
 
 You can either use Local Desktop with Docker installed or a VM provisioned on any cloud platform (preferably Digital Ocean) with a script created by community to automate OpenFaaS installation.
+
+
+## Install and Setup Digital Ocean CLI(`doctl`)
+
+### Install `doctl` 
+
+To install `doctl` suitable for your operating system, please follow the instructions listed on the below page under installation section.
+
+[Install `doctl` cli](https://github.com/digitalocean/doctl/blob/master/README.md#installing-doctl)
+
+### Get access token for CLI
+In order to use doctl, you need to authenticate with DigitalOcean by providing an access token, which can be created from the [Applications & API](https://cloud.digitalocean.com/settings/api/tokens) section of the Control Panel. 
+
+[Generate access token](https://www.digitalocean.com/docs/api/create-personal-access-token/)
+
+### Authenticate your CLI using DigitalOcean 
+
+After generating access token, you need to authenticate the `doctl` cli with Digital Ocean using access token generated in previous step. Follow the instructions at below link to authenticate.
+
+[Authenticating with DigitalOcean](https://github.com/digitalocean/doctl/blob/master/README.md#authenticating-with-digitalocean)
 
 ## Setting up environment using K3S and VSCode on Digital Ocean
 This option uses k3s which lightweight kubernetes distribution from rancher labs and VScode in browser running on remote server
