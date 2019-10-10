@@ -11,6 +11,19 @@ You can either use Local Desktop with Docker installed or a VM provisioned on an
 ## Setting up environment using K3S and VSCode on Digital Ocean
 This option uses k3s which lightweight kubernetes distribution from rancher labs and VScode in browser running on remote server
 
+### If Digital Ocean client (`DOCTL`) is installed.
+
+#### Clone the repository and run the provision script
+
+Clone the repository on you local system and run provision script
+
+```
+git clone https://github.com/openfaas-incubator/workshop-vscode && cd workshop-vscode
+```
+```
+./provision-digitalocean.sh
+```
+
 ### If Digital Ocean client (`DOCTL`) is not installed.
 
 #### Create Droplet 
@@ -32,18 +45,7 @@ git clone https://github.com/openfaas-incubator/workshop-vscode && cd workshop-v
 bash cloudinit.txt
 ```
 
-### If Digital Ocean client (`DOCTL`) is installed.
 
-#### Clone the repository and run the provision script
-
-Clone the repository on you local system and run provision script
-
-```
-git clone https://github.com/openfaas-incubator/workshop-vscode && cd workshop-vscode
-```
-```
-./provision-digitalocean.sh
-```
 
 ### Find password for VSCode browser login
 ssh to digital ocean droplet and run below command to get password to login into VSCode browser 
