@@ -96,7 +96,7 @@ Once you login to the VSCode, there are some steps that you need to follow and i
 
 Open a terminal window in vscode
 
-1. Add `export OPENFAAS_URL=<droplet-public-ip>:31112` to .bashrc (`01-add-to-bashrc.txt`)
+1. Add `export OPENFAAS_URL=<droplet-public-ip>:31112` to .bashrc (`01-add-to-bashrc.txt`). 
 2. Login to the gateway using `faas-cli` command present in file `02-run-this.txt`
 3. Type Gateway URL from file `03-gateway-url.txt` in browser and login using the gateway password listed in `04-gateway-password.txt` file.
 
@@ -112,14 +112,14 @@ Open a terminal window in vscode
 > OpenFaaS comes with UI and CLI to interact with OpenFaaS. UI is can be used list function and test them. CLI is more powerful than UI and it has lot of functionality.
 
 
-## Lab 2
+# [Lab 2](https://github.com/openfaas/workshop/blob/master/lab2.md)
 
 
 This lab familiarize you with OpenFaaS UI, CLI and how to manage functions using them. Also, you will be deploying Grafana dashboard to monitor functions metrics.
 
 > Note: In CLI section, export instructions can be skipped but you can read through them.
 
-# Lab 3
+# [Lab 3](https://github.com/openfaas/workshop/blob/master/lab3.md) 
 
 > Login to your docker hub account using below command in the terminal before working on this lab
 ```
@@ -132,7 +132,7 @@ We will skip following section from this lab.
 3. Variable Substitution in YAML File
 4. Custom binaries as functions
 
-# Lab 4 
+# [Lab 4](https://github.com/openfaas/workshop/blob/master/lab4.md) 
 
 This lab goes deeper into functions and covers following
 1. Using environment variable
@@ -141,16 +141,16 @@ This lab goes deeper into functions and covers following
 4. Logging
 5. Chaining Functions
 
-# Lab 5
+# [Lab 5](https://github.com/openfaas/workshop/blob/master/lab5.md) 
 In this lab we will create Github Bot. 
 
 If you are running the workshop on digital ocean then you can skip set up a tunnel with ngrok and log into the gateway with the ngrok address section.
 
-# Lab 6
+# [Lab 6](https://github.com/openfaas/workshop/blob/master/lab6.md)
 
 This lab covers, how you can renders HTML using your functions and create single page applications (SPA).
 
-# Lab 7
+# [Lab 7](https://github.com/openfaas/workshop/blob/master/lab7.md)
 This lab covers following
 1. Difference between synchronous callbacks and asynchronous callbacks.
 2. Using `X-Callback-Url` header
