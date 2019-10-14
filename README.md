@@ -51,6 +51,8 @@ git clone https://github.com/openfaas-incubator/workshop-vscode && cd workshop-v
 ./provision-digitalocean.sh
 ```
 
+> Note: By default, the region in which your VM is created will be London. You can edit that in `provision-digitalocean.sh` script and update it to `BLR1` for bangalore. `REGION="blr1"`
+
 ### If Digital Ocean client (`DOCTL`) is not installed.
 
 #### Create Droplet 
