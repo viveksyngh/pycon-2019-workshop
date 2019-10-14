@@ -112,14 +112,17 @@ Open a terminal window in vscode
 > OpenFaaS comes with UI and CLI to interact with OpenFaaS. UI is can be used list function and test them. CLI is more powerful than UI and it has lot of functionality.
 
 
-# [Lab 2](https://github.com/openfaas/workshop/blob/master/lab2.md)
+# [Lab 2](https://github.com/openfaas/workshop/blob/master/lab2.md) 
 
+Duration: 15 Minutes
 
 This lab familiarize you with OpenFaaS UI, CLI and how to manage functions using them. Also, you will be deploying Grafana dashboard to monitor functions metrics.
 
 > Note: In CLI section, export instructions can be skipped but you can read through them.
 
 # [Lab 3](https://github.com/openfaas/workshop/blob/master/lab3.md) 
+
+Duration: 25 Minutes
 
 > Login to your docker hub account using below command in the terminal before working on this lab
 ```
@@ -134,6 +137,8 @@ We will skip following section from this lab.
 
 # [Lab 4](https://github.com/openfaas/workshop/blob/master/lab4.md) 
 
+Duration: 20 Minutes
+
 This lab goes deeper into functions and covers following
 1. Using environment variable
 2. Using HTTP Context like query string, path, headers
@@ -142,15 +147,23 @@ This lab goes deeper into functions and covers following
 5. Chaining Functions
 
 # [Lab 5](https://github.com/openfaas/workshop/blob/master/lab5.md) 
+
+Duration: 35 Minutes
+
 In this lab we will create Github Bot. 
 
 If you are running the workshop on digital ocean then you can skip set up a tunnel with ngrok and log into the gateway with the ngrok address section.
 
 # [Lab 6](https://github.com/openfaas/workshop/blob/master/lab6.md)
 
+Duration: 15 Minutes
+
 This lab covers, how you can renders HTML using your functions and create single page applications (SPA).
 
 # [Lab 7](https://github.com/openfaas/workshop/blob/master/lab7.md)
+
+Duration: 10 Minutes
+
 This lab covers following
 1. Difference between synchronous callbacks and asynchronous callbacks.
 2. Using `X-Callback-Url` header
